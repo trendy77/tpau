@@ -1,14 +1,19 @@
 <?php include('header.php'); ?>
-</div>	
-</div>	
+
 <div class="section no-pad-bot black">
 	<h1 class="header center white-text">Trendy Publishing</h1>
 	<br> <br>
 	<h4 class="header center grey-text">Digital Engagement Tools</h4>	 
 	<br>
 </div>
+
+		<div class="parallax"><img src="/timg/9.jpg" alt="b"></div>
+	</div>	
+	
+	
   <div class="container">
-    	<div class="section black">
+
+  <div class="section black">
 			<div class="row center">
 				<div class="col m4 s12">
 					<div class="icon-block">
@@ -35,13 +40,9 @@
 		</div> 	
 	</div>
 	
+<?php include ('midTemp.php'); ?>
 
-		<?php include ('midTemp.php'); ?>
-
-		</div>
-	</div>
-
- 
+	 
    <div class="section">
  		<div class="container light black">
  

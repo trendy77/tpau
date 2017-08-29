@@ -7,7 +7,8 @@
 # ----------------------------------------------------------------------
 <FilesMatch "\.(ttf|otf|eot|woff)$">
     <IfModule mod_headers.c>
-        SetEnvIf Origin "http(s)?://(www\.)?(google.com|orgmy.biz|trendypublishing.com|trendypublishing.com.au|organisemybiz.com)$" AccessControlAllowOrigin=$0
-        Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+SetEnvIf Origin "https://(www.orgmy.biz.com|trendypublishing.com|organisemybiz.com)$" ACAO=$0
+Header always append Access-Control-Allow-Origin "%{ACAO}e" env=ACAO
+Header set Access-Control-Allow-Methods "GET"
     </IfModule>
 </FilesMatch>

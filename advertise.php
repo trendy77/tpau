@@ -1,64 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<?php
-$url = htmlspecialchars($_SERVER["PHP_SELF"]); ?>
- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/materialize.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="css/form.css" type="text/css" rel="stylesheet" media="all"/>
-
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Trendy Publishing">
-		<meta property="og:description" content="Proven, cost-effective Social Media audience engagement. Utilizing proprietary behavioural algorithms and existing online communities we craft bespoke digital campaigns that offer an integrated way to drive content viral, garner viewer engagement exponentially improve campaign ROI.">
-		<meta property="og:site_name" content="Trendy Publishing">
-		<meta property="og:url" content="<?php echo $url; ?>">
-<link rel="alternate" hreflang="x-default" href="<?php echo $url; ?>">
-<link rel="alternate" hreflang="en-gb" href="<?php echo $url; ?>">
-<link rel="alternate" hreflang="es" href="<?php echo $url; ?>">
-<link rel="pingback" href="<?php echo $url; ?>"/xmlrpc.php">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta property="og:locale" content="en_US">
- <meta name="application-name" content="https://trendypublishing.com/" />
-    <meta name="msapplication-square70x70logo" content="tp/live/small.jpg" />
-    <meta name="msapplication-square150x150logo" content="tp/live/medium.jpg" />
-    <meta name="msapplication-wide310x150logo" content="/tp/live/wide.jpg" />
-    <meta name="msapplication-square310x310logo" content="/tp/live/large.jpg" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=5; cycle=1"/>
-		<!-- favicon -->
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-        <meta name="keywords" content="Growth Hacking, Social Media, Viral content, digital marketing, media, publishing">
-        <title>Trendy Publishing || Advertise With Us</title> 
-        <meta name="author" content="Trendy Publishing">
-        <meta name="description" content="Trendy Publishing provides customized Social Media audience engagement through a proprietary mix of behavioural algorithms and integrated social media campaigns
-Digital campaigns with proven results in driving viral content, unleashing massive audience participation, engagement and audience returns 
-for clients.">
-</head>
-<body>
-<header>
- <div class="parallax-container valign-wrapper">
-     <div class="parallax"><img src="./timg/4.jpg" alt="background img 1">
-     </div>
-     </div>
-
-<?php include ('navi.php'); ?>
-
-</header>
-<main>
- 
+<?php include('header.php'); ?>
+</div>	
+</div>	
+<div class="section no-pad-bot black">
+	<h1 class="header center white-text">Trendy Publishing</h1>
+	<br> <br>
+	<h4 class="header center grey-text">Digital Engagement Tools</h4>	 
+	<br>
+</div>
    <div class="container card-title grey">
        	<h1 class="header center black-text">Advertise With Us </h1>
   </div>
-           </div> 
-         <div class="section">
-
-<div class="card green-darken-2 hoverable">
-<h5>SELECT THE MOST RELEVANT OFFICE FOR YOU:</h5>
+    <div class="section">
+		<div class="card green-darken-2 hoverable">
+<h5>CONTACT YOUR LOCAL TEAM</h5>
 <ul>
 <li><a href="#LA">LOS ANGELES</a></li>
 <li><a href="#ME">MELBOURNE</a></li>
@@ -68,6 +22,7 @@ for clients.">
 </div>
 
 </div>
+
        <div class="row">
         <div class="col s12 m6">
           <div class="card blue-grey darken-1">

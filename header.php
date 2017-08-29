@@ -5,10 +5,9 @@ require_once('/home/organ151/Scripts/greyMatter/tSiteNoClass.php');
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://orgmy.biz/css/materialize.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="https://orgmy.biz/css/style.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="https://orgmy.biz/css/form.css" type="text/css" rel="stylesheet" media="all"/>
-<link href='https://orgmy.biz/node_modules/font-bftinyhand/css/font-bftinyhand.css' rel='stylesheet' type='text/css'>
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="all"/>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"/>
+<link href="css/form.css" type="text/css" rel="stylesheet" media="all"/>
 <link rel="terms" href="https://orgmy.biz/terms/index.php">
 <link rel="privacy" href="https://orgmy.biz/terms/privacy.php">
 <link rel="kik-icon" href="https://orgmy.biz/' . <?php echo $IDENTIFIER; ?> . '/live/small.jpg">
@@ -41,24 +40,25 @@ require_once('/home/organ151/Scripts/greyMatter/tSiteNoClass.php');
         <meta name="description" content="Trendy Publishing provides customized Social Media audience engagement through a proprietary mix of behavioural algorithms and integrated social media campaigns. Digital campaigns with proven results in driving viral content, unleashing massive audience participation, engagement and audience returns for clients.">
 		</head>
 <body>
-<header>
-	
+
 <div id="index-banner" class="parallax-container">	 
+	
+<header>
+	<div id="container">
 		<nav class="grey darken-4" role="navigation">
-    <div class="nav-wrapper">
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-<li> <li class="active"><a class="white-text bold" href="#">HOME</a></li>   
- <li><a class="white-text bold" href="#platforms"/>Platforms</a></li>       
-     <li><a class="white-text bold" href="terms/privacy.php"/>Media</a></li>  
-	 <li><a class="white-text bold" href="advertise.php"/>Advertise</a></li>  
-     <li><a class="white-text bold" href="terms/index.php"/>Terms</a></li> 
-	 <li><a class="white-text bold" href="index.php#contact"/>Contact</a></li>
-	 <li><button onclick="myFacebookLogin()">Login with Facebook</button></li>
-<li><button onclick="onButtonClick()">send Friend REQ?</button></li>
-	</ul>
-    </div>
-  </nav>
-     	
-<div class="parallax"><img src="timg/1.jpeg" alt="background img 1"></div>
-	</div>	
-</header> 
+			<div class="nav-wrapper">
+			  <ul id="nav-mobile" class="right hide-on-med-and-down">
+			 <li> <li class="active"><a class="white-text bold" href="#">HOME</a></li>   
+			 <li><a class="white-text bold" href="#platforms"/>Platforms</a></li>       
+			 <li><a class="white-text bold" href="terms/privacy.php"/>Media</a></li>  
+			 <li><a class="white-text bold" href="advertise.php"/>Advertise</a></li>  
+			 <li><a class="white-text bold" href="terms/index.php"/>Terms</a></li> 
+			 <li><a class="white-text bold" href="index.php#contact"/>Contact</a></li>
+			 <li><div class="fb-login-button" data-max-rows="2" data-size="large" data-button-type="login_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="false">Login with Facebook</div></li>
+			 <li><button onclick="onButtonClick()">send Friend REQ?</button></li>
+			 </ul>
+		</div>
+   </nav>
+  </div>
+</header>
+ 

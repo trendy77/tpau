@@ -38,3 +38,4 @@
 [28-Aug-2017 08:45:15 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 157
 [28-Aug-2017 08:45:15 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 160
 [28-Aug-2017 08:45:15 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[29-Aug-2017 17:32:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/au/js.php on line 48
