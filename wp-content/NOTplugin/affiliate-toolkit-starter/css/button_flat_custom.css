@@ -1,0 +1,57 @@
+.atkp-button {
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 4px 2rem;
+  display:inline-block;
+  background-color: %background_color%;
+  border: 1px solid transparent;
+  color: %foreground_color% !important;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: inherit;
+}
+
+.atkp-button:hover {
+  background-color: %foreground_color%;
+  color: %background_color%  !important;
+  border-color: %background_color%;
+      text-decoration: none;
+}
+
+.atkp-smallbox .atkp-button {
+    padding: 7px 0;
+    text-align: center;
+}
+
+.atkp-button2 {
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 4px 2rem;
+  display:inline-block;
+  background-color: %foreground_color%;
+  border: 1px solid transparent;
+  color: %background_color% !important;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: inherit;
+}
+
+.atkp-button2:hover {
+  background-color: %background_color%;
+  color: %foreground_color%  !important;
+  border-color: %foreground_color%%;
+      text-decoration: none;
+}
+
+.atkp-smallbox .atkp-button2 {
+    padding: 4px 0;
+    text-align: center;
+}

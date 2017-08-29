@@ -1,0 +1,40 @@
+[27-Aug-2017 15:50:50 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Aug-2017 15:53:43 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Aug-2017 19:05:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Aug-2017 20:47:43 UTC] PHP Warning:  include(contact.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 70
+[27-Aug-2017 20:47:43 UTC] PHP Warning:  include(contact.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 70
+[27-Aug-2017 20:47:43 UTC] PHP Warning:  include(): Failed opening 'contact.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 70
+[27-Aug-2017 20:47:43 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 137
+[27-Aug-2017 20:47:43 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 137
+[27-Aug-2017 20:47:43 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 140
+[27-Aug-2017 20:47:43 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 140
+[27-Aug-2017 20:52:24 UTC] PHP Warning:  include(contact.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 90
+[27-Aug-2017 20:52:24 UTC] PHP Warning:  include(contact.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 90
+[27-Aug-2017 20:52:24 UTC] PHP Warning:  include(): Failed opening 'contact.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 90
+[27-Aug-2017 20:52:24 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[27-Aug-2017 20:52:24 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[27-Aug-2017 20:52:24 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[27-Aug-2017 20:52:24 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[27-Aug-2017 20:53:47 UTC] PHP Warning:  include(contact.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 90
+[27-Aug-2017 20:53:47 UTC] PHP Warning:  include(contact.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 90
+[27-Aug-2017 20:53:47 UTC] PHP Warning:  include(): Failed opening 'contact.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 90
+[27-Aug-2017 20:53:47 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[27-Aug-2017 20:53:47 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[27-Aug-2017 20:53:47 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[27-Aug-2017 20:53:47 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 06:32:01 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 06:32:01 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 06:32:01 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 06:32:01 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 08:14:22 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 08:14:22 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 08:14:22 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 08:14:22 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 08:15:54 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 08:15:54 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 08:15:54 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 08:15:54 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 08:45:15 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 08:45:15 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 157
+[28-Aug-2017 08:45:15 UTC] PHP Warning:  include_once(js.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/bot/kikBot.php on line 160
+[28-Aug-2017 08:45:15 UTC] PHP Warning:  include_once(): Failed opening 'js.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/bot/kikBot.php on line 160
