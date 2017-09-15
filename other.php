@@ -14,7 +14,7 @@
 </header>
 <main>
 <div class="parallax-container valign-wrapper">
-   <div class="parallax"><img src="./timg/3.jpg" alt="background img 1"></div>
+   <div class="parallax"><img src="/timg/3.jpg" alt="background img 1"></div>
        
  
 <div class="section">
@@ -28,7 +28,7 @@
  
  <div class="section">
    <div class="parallax-container valign-wrapper">
-     <div class="parallax"><img src="./timg/2.jpg" alt="background img 1"></div>
+     <div class="parallax"><img src="/timg/2.jpg" alt="background img 1"></div>
 
 </div>
    

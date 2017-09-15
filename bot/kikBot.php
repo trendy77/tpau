@@ -2,9 +2,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://orgmy.biz/css/materialize.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="https://orgmy.biz/css/style.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="https://orgmy.biz/css/form.css" type="text/css" rel="stylesheet" media="all"/>
+<link href="../css/materialize.css" type="text/css" rel="stylesheet" media="all"/>
+<link href="../css/style.css" type="text/css" rel="stylesheet" media="all"/>
+
 <?php $IDENTIFIER = 'tpau'; ?>
 <script src="kikBot.js"></script>
 
@@ -26,7 +26,6 @@ request.post({
     }
 }, callback);
 </script>
-
 
 <link rel="terms" href="https://orgmy.biz/terms/index.php">
 <link rel="privacy" href="https://orgmy.biz/terms/privacy.php">
@@ -64,12 +63,12 @@ request.post({
 		<nav class="grey darken-4" role="navigation">
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-<li> <li class="active"><a class="white-text bold" href="#">HOME</a></li>   
- <li><a class="white-text bold" href="#platforms"/>Platforms</a></li>       
-     <li><a class="white-text bold" href="terms/privacy.php"/>Media</a></li>  
-	 <li><a class="white-text bold" href="advertise.php"/>Advertise</a></li>  
-     <li><a class="white-text bold" href="terms/index.php"/>Terms</a></li> 
-	 <li><a class="white-text bold" href="index.php#contact"/>Contact</a></li>
+<li> <li class="active"><a class="white-text bold" href="../index.php">HOME</a></li>   
+ <li><a class="white-text bold" href="../index.php#platforms"/>Platforms</a></li>       
+     <li><a class="white-text bold" href="../terms/privacy.php"/>Media</a></li>  
+	 <li><a class="white-text bold" href="../advertise.php"/>Advertise</a></li>  
+     <li><a class="white-text bold" href="../terms/index.php"/>Terms</a></li> 
+	 <li><a class="white-text bold" href="../index.php#contact"/>Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -80,7 +79,19 @@ request.post({
 
 
 
-
+	<div class="container">
+    	<div class="section black">
+		
+					<?php include('../phones.php'); ?>
+						
+   
+				</div>
+			</div>	
+<div class="parallax-container valign-wrapper">
+ <div class="parallax"><img src="3.jpg" alt="background"></div>
+ 
+   <div class="section grey">
+ 		<div class="container light black">
 
 
 
@@ -99,13 +110,13 @@ request.post({
  		<div class="container light black">
 
 		      <ul id="footer">
-<li> <li class="active"><a class="white-text bold" href="#">HOME</a></li>   
- <li><a class="white-text bold" href="indesx.pho#platforms"/>Platforms</a></li>       
-     <li><a class="white-text bold" href="terms/privacy.php"/>Media</a></li>  
-	 <li><a class="white-text bold" href="advertise.php"/>Advertise</a></li>
-     <li><a class="white-text bold" href="terms/index.php"/>Terms</a></li> 
-	 <li><a class="white-text bold" href="index.php#contact"/>Contact</a></li>
-      </ul>
+<li> <li class="active"><a class="white-text bold" href="../index.php">HOME</a></li>   
+ <li><a class="white-text bold" href="../index.php#platforms"/>Platforms</a></li>       
+     <li><a class="white-text bold" href="../terms/privacy.php"/>Media</a></li>  
+	 <li><a class="white-text bold" href="../advertise.php"/>Advertise</a></li>  
+     <li><a class="white-text bold" href="../terms/index.php"/>Terms</a></li> 
+	 <li><a class="white-text bold" href="../index.php#contact"/>Contact</a></li>
+        </ul>
     
  
 		</div>

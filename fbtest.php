@@ -19,7 +19,7 @@
                             // server to access the session
       xfbml      : true,     // parse page for xfbml or html5
                             // social plugins like login button below
-      version     : 'v2.7',  // Specify an API version
+      version     : 'v2.10',  // Specify an API version
     });
 
     // Put additional init code here
@@ -34,30 +34,7 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
-  /*
-   * This function makes a call to the og.likes API.  The
-   * object argument is the object you like.  Other types
-   * of APIs may take other arguments. (i.e. the book.reads
-   * API takes a book= argument.)
-   *
-   * Because it's a sample, it also sets the privacy
-   * parameter so that it will create a story that only you
-   * can see.  Remove the privacy parameter and the story
-   * will be visible to whatever the default privacy was when
-   * you added the app.
-   *
-   * Also note that you can view any story with the id, as
-   * demonstrated with the code below.
-   *
-   * APIs used in postLike():
-   * Call the Graph API from JS:
-   *   https://developers.facebook.com/docs/reference/javascript/FB.api
-   * The Open Graph og.likes API:
-   *   https://developers.facebook.com/docs/reference/opengraph/action-type/og.likes
-   * Privacy argument:
-   *   https://developers.facebook.com/docs/reference/api/privacy-parameter
-   */
-
+ 
   function postLike() {
     FB.api(
        'https://graph.facebook.com/me/og.likes',
@@ -100,15 +77,11 @@
   data-scope="publish_actions">
 </div>
 
-<div>
-This example creates a story on Facebook using the
+<div>This example creates a story on Facebook using the
 <a href="https://developers.facebook.com/docs/reference/ogaction/og.likes">
 <code>og.likes</code></a> API.  That story will just say
-that you like an
-<a href="http://techcrunch.com/2013/02/06/facebook-launches-developers-live-video-channel-to-keep-its-developer-ecosystem-up-to-date/">
-article on TechCrunch</a>.  The story should only
-be visible to you.
-</div>
+that you like an<a href="http://techcrunch.com/2013/02/06/facebook-launches-developers-live-video-channel-to-keep-its-developer-ecosystem-up-to-date/">
+article on TechCrunch</a>.  The story should only be visible to you. </div>
 
 <div>
 <input

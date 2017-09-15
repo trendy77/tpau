@@ -1,21 +1,15 @@
 {
-  "name": "trendypress",
-  "version": "1.0.0",
-  "description": "a press of words trendified",
+  "name": "ombiz",
+  "version": "1.1.1",
+  "description": "tinyhands",
   "main": "index.js",
   "scripts": {
-    "test": "go"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "github.com/trendy77/trendypress"
-  },
-  "keywords": [
-    "wordpress",
-    "other",
-    "keyword"
-  ],
-  "author": "me",
-  "license": "GPL-2.0",
-  "dependencies": {}
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "font-bftinyhand": "^1.0.2",
+    "yarn": "^0.27.5"
+  }
 }

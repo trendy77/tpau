@@ -1,7 +1,8 @@
+<?php
+?>
  <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://orgmy.biz/js/materialize.js"></script>
-  <script src="https://orgmy.biz/js/init.js"></script>
+  <script src="js/materialize.js"></script>
 
   <script type="text/javascript">
   var vglnk = { key: 'db8e8b461e1b6dcc640b00494a7a95e9' };
@@ -45,10 +46,10 @@
 	<script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '<?php if ($FBAPPID){ echo $FBAPPID } else { echo '1863943023885616'; ?>',
+      appId      : '<?php if (!$FBAPPID){ $FBAPPID='1863943023885616'; echo($FBAPPID); } ?>',
       cookie     : true,
       xfbml      : true,
-      version    : 'v2.8'
+      version    : 'v2.10'
     });
     FB.AppEvents.logPageView();   
   };
@@ -62,7 +63,6 @@
   </script>
   
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 	<script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-4943462589133750",
@@ -120,4 +120,3 @@ kik.browser.back(handleBackButton);       // handle back button
 kik.browser.unbindBack(handleBackButton); // unbind from handling back button
 
 </script> 
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=ddd0de63-477b-4d8a-a6aa-174f676a7651"></script>
