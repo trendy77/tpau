@@ -1,6 +1,11 @@
 @font-face {
-    font-family: tinyHands;
-    src: url(../fonts/tinyHands.woff) format(woff);
+  font-family: 'BFTinyHand';
+  src: url('BF.eot'); /* IE9 Compat Modes */
+  src: url('BF.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BF.woff2') format('woff2'), /* Super Modern Browsers */
+       url('BF.woff') format('woff'), /* Pretty Modern Browsers */
+       url('BF.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BF.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -46,7 +51,7 @@ nav .brand-logo {
     color: #444;
 }
 
-h5 {
+h {
     font-family: tinyHands;
 }
 

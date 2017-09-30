@@ -32,12 +32,13 @@ if (!is_single()) { return; }
 //add_filter('the_content', 'replace_text_wps');
 //add_filter('the_excerpt', 'replace_text_wps');
 function replace_text_wps($text){
-$replace = array(
-// 'WORD TO REPLACE' => 'REPLACE WORD WITH THIS'
-// football clothing  BRANDS
- 'nike'   =>        '<a href="http://mysite.com/myafflink">thesis</a>',
-'adidas'    =>       '<a href="http://mysite.com/myafflink">studiopress</a>'
-'football'     =>//'jersey'//'vaporizer'     =>
+	$replace = array(
+	// 'WORD TO REPLACE' => 'REPLACE WORD WITH THIS'
+	// football clothing  BRANDS
+	'nike'   =>        '<a href="http://mysite.com/myafflink">thesis</a>',
+	'adidas'    =>       '<a href="http://mysite.com/myafflink">studiopress</a>',
+	'football'     =>  '<a href="http://mysite.com/myafflink">studiopress</a>'
+	);
 }
 
 function addSignin(){
