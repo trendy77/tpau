@@ -1,0 +1,12 @@
+{
+    "name": "trendy77/webSite",
+    "description": "templated website for sites",
+    "authors": [{
+        "name": "Trent Fischer",
+        "email": "contact@orgmy.biz",
+        "homepage": "trendypublishing.com"
+    }],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.0"
+    }
+}

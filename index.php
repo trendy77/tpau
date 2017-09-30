@@ -30,10 +30,10 @@
 				</div>
 					<div class="col m4 s12">
 						<div class="icon-block">
-									<h5 class="center red-text">Engage</h5>
-									<a class="btn btn-floating btn-large red pulse"><i class="material-icons">touch_app</i></a>
-									<p class="white-text">Push social content viral with pre-engaged user-communities across multiple touchpoints.</p>
-						</div>
+							<h5 class="center deep-orange-text pulse">Target</h5>
+								<a class="btn btn-floating btn-large deep-orange pulse"><i class="material-icons">video_library</i></a> 
+								<p class="white-text">Pinpoint key demographics with mathematical precision.</p>
+						</div>	
 					</div>
 					<div class="col m4 s12">
 						<div class="icon-block">

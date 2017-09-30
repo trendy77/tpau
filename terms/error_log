@@ -1,5 +1,55 @@
-[28-Aug-2017 20:57:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/au/js.php on line 48
-[28-Aug-2017 20:57:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/au/js.php on line 48
-[29-Aug-2017 08:40:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/au/js.php on line 48
-[29-Aug-2017 17:31:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/au/js.php on line 48
-[29-Aug-2017 17:31:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/au/js.php on line 48
+[28-Aug-2017 05:11:39 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 05:11:39 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 06:08:25 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 06:08:25 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 06:08:56 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 06:08:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 06:09:09 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 06:09:09 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[28-Aug-2017 16:55:38 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[29-Aug-2017 04:05:18 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[29-Aug-2017 04:05:18 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[29-Aug-2017 21:03:12 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[29-Aug-2017 21:03:12 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[29-Aug-2017 21:03:16 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[29-Aug-2017 21:03:16 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[29-Aug-2017 21:04:42 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[29-Aug-2017 21:04:42 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[29-Aug-2017 21:33:27 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[29-Aug-2017 21:33:27 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[29-Aug-2017 21:33:27 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[01-Sep-2017 18:23:19 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[01-Sep-2017 18:23:19 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[01-Sep-2017 18:23:19 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[02-Sep-2017 05:17:55 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[03-Sep-2017 12:32:33 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[03-Sep-2017 12:32:37 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[03-Sep-2017 12:32:38 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[03-Sep-2017 12:32:43 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[03-Sep-2017 12:32:46 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[04-Sep-2017 00:32:00 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[04-Sep-2017 00:34:52 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[04-Sep-2017 00:37:14 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[04-Sep-2017 00:37:14 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[04-Sep-2017 00:37:52 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[04-Sep-2017 00:39:34 UTC] PHP Fatal error:  Call to undefined function getSiteDeets() in /home/organ151/public_html/ombiz/js.php on line 26
+[06-Sep-2017 08:08:28 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[06-Sep-2017 08:08:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[06-Sep-2017 22:55:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/ombiz/js.php on line 49
+[06-Sep-2017 22:55:28 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[06-Sep-2017 22:55:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[06-Sep-2017 22:55:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/ombiz/js.php on line 49
+[07-Sep-2017 18:29:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/ombiz/js.php on line 49
+[07-Sep-2017 18:29:55 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[07-Sep-2017 18:29:55 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[07-Sep-2017 18:29:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/ombiz/js.php on line 49
+[07-Sep-2017 18:30:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/ombiz/js.php on line 49
+[07-Sep-2017 18:57:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/organ151/public_html/ombiz/js.php on line 49
+[12-Sep-2017 03:19:02 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[12-Sep-2017 03:19:02 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[15-Sep-2017 05:49:34 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[15-Sep-2017 05:49:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[15-Sep-2017 05:49:34 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[15-Sep-2017 05:49:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/ombiz/terms/privacy.php on line 7
+[15-Sep-2017 10:35:50 UTC] PHP Warning:  require_once(../functionsNonWP.php): failed to open stream: No such file or directory in /home/organ151/public_html/au/terms/privacy.php on line 7
+[15-Sep-2017 10:35:50 UTC] PHP Fatal error:  require_once(): Failed opening required '../functionsNonWP.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/organ151/public_html/au/terms/privacy.php on line 7

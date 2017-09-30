@@ -9,60 +9,73 @@
 </head>
 <body>
 <header>
- <div class="container">
+ 
 <?php include ('navi.php'); ?>
 </header>
 <main>
 <div class="parallax-container valign-wrapper">
-   <div class="parallax"><img src="timg/2.jpg" alt="background img 1">
- </div>
-
-   <div class="container card-title grey">
-       	<h1 class="header center black-text"> TITLE </h1>
-  </div>
- </div>
+   <div class="parallax"><img src="./timg/2.jpg" alt="background img 1"></div>
        
-   <div class="section no-pad-bot">
-		<div class="container black">
+ 
+<div class="section">
+<div class="container black">
 
-			<?php include('form2.php'); ?>	
+<?php include('m1.php'); ?>	
 
-		</div> 
- 	</div> 
-  
-	<div class="section">
-		<div class="parallax-container valign-wrapper">
-			<div class="parallax"><img src="./timg/sm2.jpeg" alt="background img 1">
-			</div>
-		</div>
-    </div>        
+ </div> 
+ 
+ </div> 
+ 
+ <div class="section">
+   <div class="parallax-container valign-wrapper">
+     <div class="parallax"><img src="./timg/sm2.jpeg" alt="background img 1"></div>
+
+</div>
+   
+ </div>        
           
-	<div class="container black no-padding">
-
-  
-  <?php include('phones.php'); ?>
-  
-    </div>   
-
-
-
-  <div class="parallax-container valign-wrapper">
-      <div class="parallax"><img src="./timg/sm5.jpeg" alt="background img 1">
-	  </div>
-   </div> 
-	
-  <div class="container black no-padding">
+    <div class="container black no-padding">
         <div class="row">
            	<div class="col s12 m4">
   
-  <?php include('phones.php'); ?>
-  
-				</div>
+           </div>
         </div> 
-    </div>   
+     </div>   
+
+
+     <div class="row">
+       <div class="col l4 s4">
+           <h5 class="white-text">@offices</h5>
+           <h6 class="white-text">USA</h6>
+              <p class="grey-text text-lighten-4">Inquiries, Customer Service</p>
+              <p class="grey-text text-lighten-4">277/21050 Warner Ctr Lane, Woodland Hills, CA 91367</p>
+              <p class="grey-text text-lighten-4">info@trendypublishing.com</p>
+        </div>     
+       <div class="col-l4-s4">
+           <h6 class="white-text">Australia</h6>
+              <p class="grey-text text-lighten-4">Corporate Headquarters</p>
+              <p class="grey-text text-lighten-4">Suite 3, 34 Cromwell Rd, Victoria, AUSTRALIA 3141</p>
+              <p class="grey-text text-lighten-4">info@trendypublishing.com.au</p>
+       </div>  
+	   <div class="col-l4-s4">
+           <h6 class="white-text">Thailand</h6>
+              <p class="grey-text text-lighten-4">APAC Accounts</p>
+                <p class="grey-text text-lighten-4">15th Floor, Ploenchit Center, 2 Sukhumvit Road, Klongtoey, Bangkok, THAILAND 10110</p>
+              <p class="grey-text text-lighten-4">accounts@trendypublishing.com</p>
+            <br>
+		</div> 
+	</div>  		
+
+  <div class="parallax-container valign-wrapper">
+      <div class="parallax"><img src="./timg/sm5.jpeg" alt="background img 1"></div>
+       </div> 
+	
+  
  
 </main>
 <footer>
+
+
   <?php include('footer.php'); ?>
  </footer>	
    <?php include_once('js.php'); ?>

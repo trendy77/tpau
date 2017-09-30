@@ -2,7 +2,7 @@
   "name": "botsdk",
   "version": "1.0.0",
   "description": "emulator bot sdk",
-  "main": "noteBot.js",
+  "main": "",
   "scripts": {
     "test": ""
   },
@@ -12,6 +12,9 @@
     "@kikinteractive/kik": "^2.2.1",
     "botbuilder": "^3.9.1",
     "restify": "^5.2.0"
+  },
+  "scripts": {
+  "start": "noteBot.js"
   },
   "devDependencies": {},
   "repository": {

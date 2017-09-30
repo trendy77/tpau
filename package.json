@@ -1,0 +1,15 @@
+{
+  "name": "ombiz",
+  "version": "1.1.1",
+  "description": "tinyhands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "font-bftinyhand": "^1.0.2",
+    "yarn": "^0.27.5"
+  }
+}

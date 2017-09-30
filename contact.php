@@ -1,3 +1,5 @@
+<?php
+?>
 <div class="parallax-container valign-wrapper">
    <div class="parallax"><img src="./timg/3.jpg" alt=""></div>
 		<div class="section black">
