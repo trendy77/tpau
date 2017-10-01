@@ -1,4 +1,20 @@
 <?php
+if(!$IDENTIFIER){
+$IDENTIFIER = 'tpau';
+}
+	$PATH = getSiteD($IDENTIFIER, 'path');
+	$URL= getSiteD($IDENTIFIER, 'url');
+	$ADDY = $URL;
+	$TIT= getSiteD($IDENTIFIER, 'tit');
+	$FBAPPID= getSiteD($IDENTIFIER, 'fbappid');
+	$FBPAGEID= getSiteD($IDENTIFIER, 'fbpageid');
+	$HASH= getSiteD($IDENTIFIER, 'hash');
+	$UA = getSiteD($IDENTIFIER, 'ua');
+	$USER = getSiteD($IDENTIFIER,'user');
+
+}
+
+
 	class tSite
 	{
 		private $_wpuser;
@@ -23,9 +39,10 @@
 
 	}
 
-    function getSiteD($idn,$attr)
+    function getSiteD($IDENTIFIER, $attr)
     {
-		switch ($idn)
+			$idn = '@' + $IDENTIFIER;
+			switch ($idn)
         {
             case '@fnr':
                 switch ($attr)
@@ -44,6 +61,12 @@
             case '@vape':
                 switch ($attr)
 				{
+					case 'path': 		return '/home/organ151/public_html/fakenews'; break;
+					case 'url': 		return 'fakenewsregistry.org'; break;
+					case 'wpuser':		return 'theCreator'; break;
+					case 'wpemail': 	return 'thecreator@orgmy.biz'; break;
+					case 'wppass': 		return '5ekoeXMFRIXuJ&lWLA'; break;
+					case 'tit': 		return 'Fake News Registry.org'; break;
 					case 'path':			return '/home/organ151/public_html/vapedirectory';		break;
 					case 'user':			return 'trendyvape';			break;
 					case 'pass':			return 't0mzdez2!';			break;
@@ -51,6 +74,7 @@
 					case 'ua':			return 'UA-84079763-9';			break;
 					case 'hash':		return '@VapeDirectoryCo';break;
 					case 'fbappid':   return '1829696163961982';break;
+
 				}
             break;
 			case '@orgbizes':
@@ -96,8 +120,7 @@
                     case 'wpuser':		return 'theCreator'; break;
                     case 'wpemail': 	return 'thecreator@orgmy.biz'; break;
                     case 'wppass': 		return '5ekoeXMFRIXuJ&lWLA'; break;
-                    case 'subcommand': 	return 'install'; break;
-                                }
+                      }
             break;
             case '@tpau':
                 switch ($attr)
@@ -107,7 +130,7 @@
 					case 'wppass':		return 't0mzdez2!Q';			break;
 					case 'addy':		return 'trendypublishing.com.au';		break;
 					case 'ua':			return 'UA-84079763-11';			break;
-					case 'fbpgid':		return '1209167032497461';				break;
+					case 'fbpageid':		return '1209167032497461';				break;
 					case 'fbappid':		return '867691370038214';		break;
 					case 'hash':		return '@TrendyPublishin';			break;
 					case 'tit' : return 'Trendy Publishing'; break;

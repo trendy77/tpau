@@ -11,6 +11,7 @@
 				<div class="container">
 					<div class="section no-pad-bot black">
 					<h1 class="header center white-text">Trendy Publishing</h1>
+					<h1 style="font-family:tinyHands; src:('fonts/tinyHands.woff')">test</h1>
 					<h4 class="header center grey-text">Digital Engagement Tools</h4>
 				</div>
 			</div>
@@ -31,9 +32,9 @@
 					<div class="col m4 s12">
 						<div class="icon-block">
 							<h5 class="center deep-orange-text pulse">Target</h5>
-								<a class="btn btn-floating btn-large deep-orange pulse"><i class="material-icons">video_library</i></a> 
+								<a class="btn btn-floating btn-large deep-orange pulse"><i class="material-icons">video_library</i></a>
 								<p class="white-text">Pinpoint key demographics with mathematical precision.</p>
-						</div>	
+						</div>
 					</div>
 					<div class="col m4 s12">
 						<div class="icon-block">

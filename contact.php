@@ -33,7 +33,7 @@
 			     <div class="col s4">
 			 <li><a class="grey-text text-lighten-4">15th Floor</li></div>
 					 </div>
-          </div>
+          </div class=>
 			<div class="row">
         	     <div class="col s4">
 			 <li><a class="grey-text text-lighten-4">Warner Ctr Lane,</li></div>
@@ -54,16 +54,15 @@
 			<div class="row">
         	     <div class="col s4">
  			 <li><a class="white-text text-lighten-4">info@trendypublishing.com</li></div>
-
         	     <div class="col s4">
 			 <li><a class="white-text text-lighten-4">info@trendypublishing.com.au</li></div>
  <div class="col s4">
 			  <li><a class="white-text text-lighten-4">accounts@trendypublishing.com</li>
-			</div>
+			     </div>
           </div>
 		  </div>
 	     <div class="section black">
-	       <div class="col" id="contact">
+	       <div class="col">
         <div class="col l12 s12"><div class="row">
             <h5 class="teal-text">@brand:social</h5>
             <div class="row">

@@ -3,37 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- 
-<?php require_once('../functionsNonWP.php'); ?>
-<?php include('../header.php'); ?>
+<?php include('./header.php'); ?>
 </head>
 <body>
 <header>
-	<?php include ('../navi.php'); ?>
+<?php include ('./navi.php'); ?>
 	
-	
+
 </header>
-	
+
 <div class="parallax-container valign-wrapper">
 <div class="parallax"><img src="../timg/2.jpg" alt="background img 1"></div>
-</div> 
+</div>
 <main>
-      
+
    <div class="section no-pad-bot">
        <div class="container black">
- 
+
 <h1 class="header">Trendy Publishing | An Organised Business </h1>
 
 <h2 class="header">Privacy Policy</h2>
 
 <h3>Purpose Of This Policy </h3>
 Trendy Publishing and associated network of websites recognize the importance of safeguarding your privacy online and are serious about taking all reasonable steps possible to protect the privacy of the personal information that we hold.
-The Policy applies to anyone who provides us with their personal information. 
+The Policy applies to anyone who provides us with their personal information.
 <br>
 
 <h3>1a.	Information Collected</h3>
 By submitting this data, you also agree to the following use of this information: Informative newsletter of OrganiseMyBiz.com or other Trendy Publishing entity.
-Trendy Publishing may collect personal information such as: 
+Trendy Publishing may collect personal information such as:
 <ul><li>Your name</li>
 <li>Address </li>
 <li>Phone number</li>
@@ -49,18 +47,18 @@ We may use the information we collect from you in a variety of ways including (i
 Advertisers who contract directly with us are required to represent that they comply with our privacy policy with respect to information collected through ads displayed on our site. If you register your email address with us to receive newsletters, updates, promotions, or other types of correspondence, you may unsubscribe at any time or prevent future disclosure of your information to third parties for marketing purposes by sending us an email to: unsubscribe@promescent.com. Please be aware that it may take a few days for your change to take effect.
 In the event that we merge with another company, or transfer, or sell substantially all of our assets to a third party, all collected information stored on our server would be included in the merger, transfer, or sale. Also, if required by law, individually identifiable information may be disclosed to a third party. We reserve the right to change our privacy policy at any time. Changes will be posted to this page in a timely manner.
 <br>
-Trendy Publishing will not disclose personal information without prior written approval, unless required by law. 
+Trendy Publishing will not disclose personal information without prior written approval, unless required by law.
 <br>
 
 <h3>1c.	Security </h3>
-Trendy Publishing undertakes to take reasonable steps necessary to ensure that private information remains confidential, and is secure from any unauthorised access or disclosure. 
-Trendy Publishing's security measures include: 
-- restricted access to computer systems and physical records 
-- confidentiality agreements 
-- secure filing, storage systems and offices for physical records 
-- requiring employees to use unique passwords to gain access to our systems 
-- employing firewalls and virus scanning tools to prevent unauthorised persons and viruses from entering our systems 
-- secure access to building facilities 
+Trendy Publishing undertakes to take reasonable steps necessary to ensure that private information remains confidential, and is secure from any unauthorised access or disclosure.
+Trendy Publishing's security measures include:
+- restricted access to computer systems and physical records
+- confidentiality agreements
+- secure filing, storage systems and offices for physical records
+- requiring employees to use unique passwords to gain access to our systems
+- employing firewalls and virus scanning tools to prevent unauthorised persons and viruses from entering our systems
+- secure access to building facilities
 <br>
 
 <h3>Article 2. Cookies</h3>
@@ -82,16 +80,16 @@ OrganiseMyBiz reserves the right to make changes to this Privacy Statement. We r
 
 <h3>Article 5. Access, correction and right to objection</h3>
 If you have a relationship with Trendy Publishing, you will be entitled to access your personal data, following a written request to that effect. If the information supplied by us contains any inaccuracies, you may ask us in writing to alter or remove that information. You may also notify us if you do not wish to be contacted with information about products and services of OrganiseMyBiz, by writing to us at the following address:
-An individual may view his or her personal information at any time (subject to the Act) and advise Trendy Publishing if they believe the information is incorrect. 
-Trendy Publishing has the right to deny access to personal information if: 
-- access would have an unreasonable impact on the privacy of others 
-- the request is frivolous or vexatious 
-- proceedings for a legal dispute are in place 
-- the information relates to a sensitive decision making process 
+An individual may view his or her personal information at any time (subject to the Act) and advise Trendy Publishing if they believe the information is incorrect.
+Trendy Publishing has the right to deny access to personal information if:
+- access would have an unreasonable impact on the privacy of others
+- the request is frivolous or vexatious
+- proceedings for a legal dispute are in place
+- the information relates to a sensitive decision making process
 <br>
 
 <h2>Disclaimer</h2>
-Trendy Publishing has designed and curated the content on this website with a great deal of care being given to the presentation of accurate information.  Having said that, we cannot guarantee that all information has been appropriately fact checked and confirmed as true.  Should there be any innaccuracies or inconsistancies within the articles, the information presented here serves an informative purpose only. 
+Trendy Publishing has designed and curated the content on this website with a great deal of care being given to the presentation of accurate information.  Having said that, we cannot guarantee that all information has been appropriately fact checked and confirmed as true.  Should there be any innaccuracies or inconsistancies within the articles, the information presented here serves an informative purpose only.
 Trendy Publishing cannot accept any liability for damages, in whatever form, stemming directly or indirectly from any act or decision based on the information obtained on or through this website.
 Trendy Publishing cannot guarantee that the information presented on this website will at all times be complete, accurate or up-to-date, nor that use of that information will lead to the results envisioned by the visitor or is suitable for the visitor's purposes. Trendy Publishing reserves the right to alter the information on this site at any time.
 Trendy Publishing does not accept any responsibility for third-party websites to which this website links. Trendy Publishing does not accept any liability for the accuracy of the links, nor for the information obtained by following those links. Inclusion of a link to a third-party website does not imply that Trendy Publishing endorses the information available there, yet is intended only as an aid to visitors of this website and as an opportunity to obtain further information.
@@ -125,11 +123,11 @@ Your access to and use of the site is governed by and will be construed in accor
 The effective date of this privacy policy is April 15, 2016. Since April 1, 2016, we have made the following changes to the privacy policy: None.
 
 </main>
- 	
+
 <footer>
-    
+
 <?php include('../footer.php'); ?>
- 
+
  </footer>
 <?php include_once('../js.php'); ?>
 </body>
