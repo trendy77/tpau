@@ -1,0 +1,72 @@
+<?php
+// SHOPIFY BUYBUTTON.js for adding Shopify products to other sites 
+	// INCLUDE THE LIBRARY
+<script src="http://sdks.shopifycdn.com/buy-button/0.1.34/buybutton.js"></script>
+// or like this?
+<link href="http://sdks.shopifycdn.com/buy-button/latest/buybutton.css" rel="stylesheet" type="text/css" />
+
+//Creating a Shop Client
+// Shop Client will allow you to connect to the Shopify API so that you can retrieve data about your products and collections. You will need your myshopify.com domain, API key, and application ID to create your client and begin making requests. Where do I find my API Key and application ID?
+
+var client = ShopifyBuy.buildClient({
+  apiKey: '6d753fba741952ad541ddbbaf8a16a03',
+  domain: 'customkits-worldwide.myshopify.com',
+  appId: '8'
+});
+
+//Initializing the Library
+//You can now create a UI instance, which is the main interface you will use to create components. 
+//The ShopifyBuy.UI.init method takes the client you previously configured as its argument.
+
+var ui = ShopifyBuy.UI.init(client);
+
+//Creating a component
+//Components are created through the UI instance’s createComponent method. There are 4 types of components you can create this way: 'product', 'collection', 'productSet', and 'cart'. The component type is the first argument to createComponent, the second argument is the configuration object.
+//To create a product or collection component, you will need to pass that resource’s ID to the configuration object. How do I find my resource ID?
+//The only mandatory field in the configuration object is a resource identifier, which is either an ID or a handle. You will also likely want to specify a node, which is a DOM Element to which the component will be attached.
+
+ui.createComponent('product', {
+  id: 1234567,
+  node: document.getElementById('my-product')
+});
+
+//This will append an iframe containing your product listing to the node specified. It will also create 2 other components: a cart, and a “cart toggle”, which is a small tab on the right side of the screen which toggles the cart open.
+//Customizing a component
+//To customize your component, you can create an options object in your configuration object. Each component you wish to customize (for example, product or cart), will have its own configuration nested within the options object. For example, to customize the product and the cart in a product component, you would pass through both cart and product objects:
+
+ui.createComponent('product', {
+  id: 1234567,
+  options: {
+    product: {
+      buttonDestination: 'modal'
+    },
+    cart: {
+      startOpen: true
+    }
+  }
+});
+
+//For a full list of customization options, view the customization documentation.
+
+//
+//  RECEIVE AND RESPOND TO A WEBHOOK --- 
+//		 IN PHP
+
+
+<?php
+
+define('SHOPIFY_APP_SECRET', 'my_shared_secret');
+
+function verify_webhook($data, $hmac_header)
+{
+  $calculated_hmac = base64_encode(hash_hmac('sha256', $data, SHOPIFY_APP_SECRET, true));
+  return hash_equals($hmac_header, $calculated_hmac);
+}
+
+
+$hmac_header = $_SERVER['HTTP_X_SHOPIFY_HMAC_SHA256'];
+$data = file_get_contents('php://input');
+$verified = verify_webhook($data, $hmac_header);
+error_log('Webhook verified: '.var_export($verified, true)); //check error.log to see the result
+
+?>

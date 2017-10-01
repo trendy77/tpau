@@ -1,22 +1,29 @@
 @font-face {
-  font-family: BFTinyHand;
-  src: url('../node_modules/font-BFTinyHand/BFTinyHand-Regular.eot'); /* IE9 Compat Modes */
-  src: url('../node_modules/font-BFTinyHand/BFTinyHand-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../node_modules/font-BFTinyHand/BFTinyHand-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../node_modules/font-BFTinyHand/BFTinyHand-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../node_modules/font-BFTinyHand/BFTinyHand-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../node_modules/font-BFTinyHand/BFTinyHand-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */ font-weight: normal;
-  font-style: normal; 
+  font-family: 'bftinyhand';
+  src: local('bf.eot'); /* IE9 Compat Modes */
+  src: local('bf.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       local('bf.woff2') format('woff2'), /* Super Modern Browsers */
+       local('bf.woff') format('woff'), /* Pretty Modern Browsers */
+       local('bf.ttf')  format('truetype'), /* Safari, Android, iOS */
+       local('bf.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-
-
+@font-face {
+    font-family: tinyHands;
+    src: url(//trendypublishing.com.au/fonts/tinyHands.woff);
+}
 nav ul a,
 nav .brand-logo {
     color: #444;
 }
+html {
+    font-family: Roboto, Calibri, tinyHands, bftinyhands;
+  }
+h1 {
+    font-family: tinyHands;
+}
 
 h {
-font-family: BFTinyHand;
+    font-family: bftinyhand;
 }
 
 p {
@@ -141,4 +148,9 @@ p {
 
 footer.page-footer {
     margin: 0;
+}
+
+header.tpheader {
+    font-family: bftinyhands, sans-serif;
+    font-weight: bold;
 }
