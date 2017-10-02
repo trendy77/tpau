@@ -1,16 +1,18 @@
 <html>
 <head>
 <title>Facebook Location?</title>
-<!-- Include the Facebook Javascript API -->
-<script src="http://connect.facebook.net/en_US/all.js"></script>
-<!-- Include the normal stylesheet-->
-<link href="/css/style.css" rel="stylesheet" />
-<!-- Include the Facebook Javascript API -->
+
 <script src="//trendypublishing.com.au/js/location.js"></script>
-<?php $target_name = isset($_POST['tname']) ? trim($_POST['tname']): trim($_GET['tname']); 
-      $name = isset($_POST['name']) ? trim($_POST['name']) : trim($_GET['name']);script src="//trendypublishing.com.au/js/location.js"></script>
-</head>
-<body>
+
+<?php $tname = isset($_POST['tname']) ? trim($_POST['tname']): trim($_GET['tname']); 
+      $tid = isset($_POST['tid']) ? trim($_POST['tid']) : trim($_GET['tid']); ?>
+
+	<INPUT TYPE="hidden" ID="tname" VALUE="<?php echo($tname);?>">
+	<INPUT TYPE="hidden" ID="tid" VALUE="<?php echo($tid);?>">
+	<script src="//trendypublishing.com.au/js/location.js"></script>
+
+
+	
 <?php include '/top.php'; ?>
 
 <div class="container" id="main">
@@ -21,7 +23,7 @@
 
             </div>
             <div class="container" id="buttons">
-                  <input class="btn" type="button" id="loginBtn" value="Get Permissions"/>
+           <input class="btn" type="button" id="loginBtn" value="Get Permissions" onClick="loginFacebook();/>
       		<input class="btn" type="button" value="Get Friends' Locations" id="friendBtn"/>
       		<!-- the following div will show the status messages during the workflow of application-->
             </div>
