@@ -15,7 +15,7 @@
 			} else {
 				document.getElementById("status").innerHTML = "You have not given required permissions"; loggedIn = false;
 			}
-		},{perms:'user_location,friends_location'});
+		},{perms:'user_location,user_friends'});
 
 		if(loggedIn) {
 			document.getElementById("loginBtn").disabled = "disabled";

@@ -1,71 +1,35 @@
 <?php $IDENTIFIER = 'tpau'; ?>
-<meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/materialize.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="css/form.css" type="text/css" rel="stylesheet" media="all"/>
-
-<link rel="terms" href="https://orgmy.biz/terms/index.php">
-<link rel="privacy" href="https://orgmy.biz/terms/privacy.php">
-<link rel="kik-icon" href="https://orgmy.biz/' . <?php echo $IDENTIFIER; ?> . '/live/small.jpg">
-	<meta property="og:type" content="website">
-		<meta property="og:title" content="Trendy Publishing">
-		<meta property="og:description" content="Proven, cost-effective Social Media audience engagement. Utilizing proprietary behavioural algorithms and existing online communities we craft bespoke digital campaigns that offer an integrated way to drive content viral, garner viewer engagement exponentially improve campaign ROI.">
-		<meta property="og:site_name" content="Trendy Publishing">
-		<meta property="og:url" content="<?php echo $_SERVER['SELF']; ?>">
-<link rel="alternate" hreflang="x-default" href="https://trendypublishing.com/">
-<link rel="alternate" hreflang="en-gb" href="https://trendypublishing.com.au/">
-<link rel="alternate" hreflang="es" href="https://es.trendypublishing.com/">
-<link rel="pingback" href="https://trendypublishing.com/xmlrpc.php">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta property="og:locale" content="en_AU">
- <meta name="application-name" content="https://trendypublishing.com/" />
-    <meta name="msapplication-square70x70logo" content="https://orgmy.biz/' . <?php echo $IDENTIFIER; ?> . '/live/small.jpg" />
-    <meta name="msapplication-square150x150logo" content="https://orgmy.biz/' . <?php echo $IDENTIFIER; ?>. '/live/medium.jpg" />
-    <meta name="msapplication-wide310x150logo" content="https://orgmy.biz/' . <?php echo $IDENTIFIER; ?>  . '/live/wide.jpg" />
-    <meta name="msapplication-square310x310logo" content="https://orgmy.biz/' . <?php echo $IDENTIFIER; ?>  . '/live/large.jpg" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=5; cycle=1"/>
-		<!-- favicon -->
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <meta name="keywords" content="Growth Hacking, Social Media, Viral content, digital marketing, media, publishing">
-        <title>Trendy Publishing || Terms</title> 
-        <meta name="author" content="Trendy Publishing">
-        <meta name="description" content="Trendy Publishing provides customized Social Media audience engagement through a proprietary mix of behavioural algorithms and integrated social media campaigns. Digital campaigns with proven results in driving viral content, unleashing massive audience participation, engagement and audience returns for clients.">
-		</head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<?php include('./termsXhead.php'); ?>
+	</head>
 <body>
-<header>
-	
-<div id="index-banner" class="parallax-container">	 
-		<nav class="grey darken-4" role="navigation">
-    <div class="nav-wrapper">
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-<li> <li class="active"><a class="white-text bold" href="#">HOME</a></li>   
- <li><a class="white-text bold" href="#platforms"/>Platforms</a></li>       
-     <li><a class="white-text bold" href="privacy.php"/>Media</a></li>  
-	 <li><a class="white-text bold" href="advertise.php"/>Advertise</a></li>  
-     <li><a class="white-text bold" href="terms/index.php"/>Terms</a></li> 
-	 <li><a class="white-text bold" href="index.php#contact"/>Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-     	
-<div class="parallax"><img src="../timg/1.jpeg" alt="background img 1"></div>
+	<header>
+		<?php include('../navi.php'); ?>
+ 
+<div class="parallax"><img src="../timg/1.jpg" alt="background img 1"></div>
 	</div>	
 </header> 
    <div class="section no-pad-bot">
-       <div id="site-usage" class="container black">
- 
-<h2 class="header">Trendy Publishing</h2>
 
-<h3 class="header">Terms + Conditions</h3>
-<h4 class="header">Store Policy</h4>
+<h2 class="header white-text">Trendy Publishing</h2>
+<h3 class="header white-text">Terms + Conditions</h3>
+<h4 class="header white-text">Site Use Policy</h4>
+</div>
 
-OVERVIEW
-
+       <div class="container black">
+       <?php include('./tcnav.php'); ?>
+      </div>
+    </div>  
+     	
+<div class="parallax"><img src="../timg/1.jpg" alt="background img 1"></div>
+	</div>	
+</header> 
+   <div class="section no-pad-bot brown">
+      
+<h3 class="white-text">OVERVIEW</h3>
+<p class="tinyHands white-text">
 This website is operated by Trendy Publishing. Throughout the site, the terms “we”, “us” and “our” refer to Trendy Publishing. Trendy Publishing offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
 
 By visiting our site and/ or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply  to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/ or contributors of content.
@@ -75,10 +39,10 @@ Please read these Terms of Service carefully before accessing or using our websi
 Any new features or tools which are added to the current store shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes.
 
 Our store is hosted on Shopify Inc. They provide us with the online e-commerce platform that allows us to sell our products and services to you.
+</p>
 
-
-SECTION 1 - ONLINE STORE TERMS
-
+<h4 class="white-text">SECTION 1 - ONLINE STORE TERMS</h4>
+<p class="tinyHands white-text">
 By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
 
 You may not use our products for any illegal or unauthorized purpose nor may you, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws).
@@ -88,7 +52,7 @@ You must not transmit any worms or viruses or any code of a destructive nature.
 A breach or violation of any of the Terms will result in an immediate termination of your Services.
 
 
-SECTION 2 - GENERAL CONDITIONS
+</p><h4 class="white-text">SECTION 2 - GENERAL CONDITIONS</h4><p class="tinyHands white-text">
 
 We reserve the right to refuse service to anyone for any reason at any time.
 
@@ -99,14 +63,14 @@ You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion
 The headings used in this agreement are included for convenience only and will not limit or otherwise affect these Terms.
 
 
-SECTION 3 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION
+</p><h4 class="white-text">SECTION 3 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION</h4><p class="tinyHands white-text">
 
 We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site is at your own risk.
 
 This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.
 
 
-SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES
+</p><h4 class="white-text">SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES</h4><p class="tinyHands white-text">
 
 Prices for our products are subject to change without notice.
 
@@ -115,7 +79,7 @@ We reserve the right at any time to modify or discontinue the Service (or any pa
 We shall not be liable to you or to any third-party for any modification, price change, suspension or discontinuance of the Service.
 
 
-SECTION 5 - PRODUCTS OR SERVICES (if applicable)
+</p><h4 class="white-text">SECTION 5 - PRODUCTS OR SERVICES (if applicable)</h4><p class="tinyHands white-text">
 
 Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our Return Policy.
 
@@ -126,7 +90,7 @@ We reserve the right, but are not obligated, to limit the sales of our products 
 We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.
 
 
-SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION
+</p><h4 class="white-text">SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION</h4><p class="tinyHands white-text">
 
 We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.
 
@@ -135,7 +99,7 @@ You agree to provide current, complete and accurate purchase and account informa
 For more detail, please review our Returns Policy.
 
 
-SECTION 7 - OPTIONAL TOOLS
+</p><h4 class="white-text">SECTION 7 - OPTIONAL TOOLS</h4><p class="tinyHands white-text">
 
 We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.
 
@@ -146,7 +110,7 @@ Any use by you of optional tools offered through the site is entirely at your ow
 We may also, in the future, offer new services and/or features through the website (including, the release of new tools and resources). Such new features and/or services shall also be subject to these Terms of Service.
 
 
-SECTION 8 - THIRD-PARTY LINKS
+</p><h4 class="white-text">SECTION 8 - THIRD-PARTY LINKS</h4><p class="tinyHands white-text">
 
 Certain content, products and services available via our Service may include materials from third-parties.
 
@@ -155,7 +119,7 @@ Third-party links on this site may direct you to third-party websites that are n
 We are not liable for any harm or damages related to the purchase or use of goods, services, resources, content, or any other transactions made in connection with any third-party websites. Please review carefully the third-party's policies and practices and make sure you understand them before you engage in any transaction. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party.
 
 
-SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS
+</p><h4 class="white-text">SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS</h4><p class="tinyHands white-text">
 
 If, at our request, you send certain specific submissions (for example contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate and otherwise use in any medium any comments that you forward to us. We are and shall be under no obligation (1) to maintain any comments in confidence; (2) to pay compensation for any comments; or (3) to respond to any comments.
 
@@ -164,12 +128,12 @@ We may, but have no obligation to, monitor, edit or remove content that we deter
 You agree that your comments will not violate any right of any third-party, including copyright, trademark, privacy, personality or other personal or proprietary right. You further agree that your comments will not contain libelous or otherwise unlawful, abusive or obscene material, or contain any computer virus or other malware that could in any way affect the operation of the Service or any related website. You may not use a false e-mail address, pretend to be someone other than yourself, or otherwise mislead us or third-parties as to the origin of any comments. You are solely responsible for any comments you make and their accuracy. We take no responsibility and assume no liability for any comments posted by you or any third-party.
 
 
-SECTION 10 - PERSONAL INFORMATION
+</p><h4 class="white-text">SECTION 10 - PERSONAL INFORMATION</h4><p class="tinyHands white-text">
 
 Your submission of personal information through the store is governed by our Privacy Policy. To view our Privacy Policy.
 
 
-SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS
+</p><h4 class="white-text">SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</h4><p class="tinyHands white-text">
 
 Occasionally there may be information on our site or in the Service that contains typographical errors, inaccuracies or omissions that may relate to product descriptions, pricing, promotions, offers, product shipping charges, transit times and availability. We reserve the right to correct any errors, inaccuracies or omissions, and to change or update information or cancel orders if any information in the Service or on any related website is inaccurate at any time without prior notice (including after you have submitted your order).
 
@@ -177,12 +141,12 @@ We undertake no obligation to update, amend or clarify information in the Servic
 
 
 
-SECTION 12 - PROHIBITED USES
+</p><h4 class="white-text">SECTION 12 - PROHIBITED USES</h4><p class="tinyHands white-text">
 
 In addition to other prohibitions as set forth in the Terms of Service, you are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.
 
 
-SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY
+</p><h4 class="white-text">SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY</h4><p class="tinyHands white-text">
 
 We do not guarantee, represent or warrant that your use of our service will be uninterrupted, timely, secure or error-free.
 
@@ -196,17 +160,17 @@ In no case shall Trendy Publishing, our directors, officers, employees, affiliat
 
 
 
-SECTION 14 - INDEMNIFICATION
+</p><h4 class="white-text">SECTION 14 - INDEMNIFICATION</h4><p class="tinyHands white-text">
 
 You agree to indemnify, defend and hold harmless Trendy Publishing and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.
 
 
-SECTION 15 - SEVERABILITY
+</p><h4 class="white-text">SECTION 15 - SEVERABILITY</h4><p class="tinyHands white-text">
 
 In the event that any provision of these Terms of Service is determined to be unlawful, void or unenforceable, such provision shall nonetheless be enforceable to the fullest extent permitted by applicable law, and the unenforceable portion shall be deemed to be severed from these Terms of Service, such determination shall not affect the validity and enforceability of any other remaining provisions.
 
 
-SECTION 16 - TERMINATION
+</p><h4 class="white-text">SECTION 16 - TERMINATION</h4><p class="tinyHands white-text">
 
 The obligations and liabilities of the parties incurred prior to the termination date shall survive the termination of this agreement for all purposes.
 
@@ -215,7 +179,7 @@ These Terms of Service are effective unless and until terminated by either you o
 If in our sole judgment you fail, or we suspect that you have failed, to comply with any term or provision of these Terms of Service, we also may terminate this agreement at any time without notice and you will remain liable for all amounts due up to and including the date of termination; and/or accordingly may deny you access to our Services (or any part thereof).
 
 
-SECTION 17 - ENTIRE AGREEMENT
+</p><h4 class="white-text">SECTION 17 - ENTIRE AGREEMENT</h4><p class="tinyHands white-text">
 
 The failure of us to exercise or enforce any right or provision of these Terms of Service shall not constitute a waiver of such right or provision.
 
@@ -224,49 +188,24 @@ These Terms of Service and any policies or operating rules posted by us on this 
 Any ambiguities in the interpretation of these Terms of Service shall not be construed against the drafting party.
 
 
-SECTION 18 - GOVERNING LAW
+</p><h4 class="white-text">SECTION 18 - GOVERNING LAW</h4><p class="tinyHands white-text">
 
 These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of 34 Cromwell Road , Melbourne, VIC, 3141, Australia.
 
 
-SECTION 19 - CHANGES TO TERMS OF SERVICE
+</p><h4 class="white-text">SECTION 19 - CHANGES TO TERMS OF SERVICE</h4><p class="tinyHands white-text">
 
 You can review the most current version of the Terms of Service at any time at this page.
 
-We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use of or access to our website or the Service following the posting of any changes to these Terms of Service constitutes acceptance of those changes.
+We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use of or access to our website or the Service following the posting of any changes to these Terms of Service constitutes acceptance of those changes.</p><h4 class="white-text">SECTION 20 - CONTACT INFORMATION</h4><p class="tinyHands white-text">
 
-
-SECTION 20 - CONTACT INFORMATION
-
-Questions about the Terms of Service should be sent to us at info@trendypublishing.com.
-
-<br>
+<p>Questions about the Terms of Service should be sent to us at info@trendypublishing.com.</p>
 </div>
 
-<nav class="grey" role="navigation">
-<div class="nav-wrapper">
-      <ul id="nav-mobile" class="right">
-<li> <li class="active"><a class="black-text bold" href="../index.php">HOME</a></li>   
- <li><a class="black-text bold" href="index.php"/>Terms</a></li>       
-     <li><a class="black-text bold" href="privacy.php"/>Privacy Policy</a></li>  
-	 <li><a class="black-text bold" href="the-fine-print.php"/>Store Policy</a></li>  
-     <li><a class="black-text bold" href="consumer-terms.php"/>Consumer Policy</a></li> 
-	 <li><a class="black-text bold" href="../index.php#contact"/>Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  </div>
-       		<footer>
-	
-    <div class="footer-copyright">
-      <div class="container">
- 
+<footer> 
 <?php include('../footer.php'); ?>
- 
-    </div>
+
 </footer>
-
-
 
   <?php include('../js.php'); ?>
   
