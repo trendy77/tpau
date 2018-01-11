@@ -1,38 +1,77 @@
-@font-face {
-  font-family: 'bftinyhand';
-  src: local('bf.eot'); /* IE9 Compat Modes */
-  src: local('bf.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       local('bf.woff2') format('woff2'), /* Super Modern Browsers */
-       local('bf.woff') format('woff'), /* Pretty Modern Browsers */
-       local('bf.ttf')  format('truetype'), /* Safari, Android, iOS */
-       local('bf.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+/* Custom Stylesheet */
+
 @font-face {
     font-family: tinyHands;
-    src: url(//trendypublishing.com.au/fonts/tinyHands.woff);
-}
-nav ul a,
-nav .brand-logo {
-    color: #444;
+    src: url(../fonts/tinyHands.woff) format(woff);
 }
 
+#nav-legal {
+    text-align: center;
+}
 
+.icon-site {
+    padding: 15px 15px 15px 15px 15px;
+    text-align: center;
+}
 
+#footer-legal {
+    margin: 10px;
+    text-align: justify;
+    opacity: 70;
+}
 
-html {
-    font-family: Roboto, Calibri, tinyHands, bftinyhands;
-  }
-h1 {
+#img-footer.left {
+    float: left;
+    opacity: 50;
+}
+
+#img-footer.right {
+    float: right;
+    opacity: 50;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: tinyHands;
 }
 
-h {
-    font-family: bftinyhand;
+#top-header {
+    background: #59aeff;
+    font-family: tinyHands;
 }
 
 p {
     line-height: 2rem;
     font-family: roboto;
+    text-align: justify;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
 }
 
 .button-collapse {
@@ -50,89 +89,12 @@ p {
     width: 100%;
 }
 
-@media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 0;
-    }
-}
-
-.icon-block {
-    padding: 0 15px;
-}
-
-.icon-block .material-icons {
-    font-size: inherit;
-}
-
 footer.page-footer {
     margin: 0;
 }
 
-
-/* Custom Stylesheet */
-
-.iframeWrapper{
-  display:inline-block;
-  position:relative;
-}
-.iframeWrapper:after{ /* I have higher Z-index so I can catch the click! Yey */
-  content:"";
-  position:absolute;
-  z-index:1;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
-}
-
-.iframeWrapper iframe{
-  vertical-align:top;
-}
-
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-nav ul a,
-nav .brand-logo {
-    color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
-bigFoot {
-	padding: 10px;
-}
-
-.button-collapse {
-    color: #26a69a;
-}
-
-.parallax-container {
-    min-height: 420px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, .9);
-}
-
-.parallax-container 
-section {
-    width: 100%;
+.icon-block {
+    padding: 0 15px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -149,17 +111,4 @@ section {
     #index-banner .section {
         top: 0;
     }
-}
-
-.icon-block {
-    padding: 0 15px;
-}
-
-footer.page-footer {
-    margin: 0;
-}
-
-header.tpheader {
-    font-family: bftinyhands, sans-serif;
-    font-weight: bold;
 }

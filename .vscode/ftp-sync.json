@@ -1,0 +1,26 @@
+{
+    "remotePath": "/public_html/au",
+    "host": "trendypublishing.com",
+    "username": "trendyp4",
+    "password": "t0mzdez2!",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": true,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        ".ftpquota",
+        "scgi-bin"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}

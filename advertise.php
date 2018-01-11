@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php require_once('header.php'); ?>
 </div>	
 </div>	
 <div class="section no-pad-bot black">
@@ -141,7 +141,7 @@ steady audience growth sophisticated system of traffic targeting long-lasting pa
 </main>
 <footer>
 
-  <?php include ('footer.php'); ?>
+  <?php require_once ('footer.php'); ?>
  
 </footer>
 	</div>

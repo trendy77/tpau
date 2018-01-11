@@ -6,21 +6,21 @@
  
 <?php require_once('/home/organ151/Scripts/greyMatter/tSiteNoClass.php'); ?>
 
- <?php include('header.php'); ?>
+ <?php require_once('header.php'); ?>
 
 </head>
 <body>
 <header> 
 
-        <?php include ('navi.php'); ?>
+        <?php require_once ('navi.php'); ?>
  </header>
 <main>
       <div class="parallax-container valign-wrapper">
        <div class="parallax"><img src="timg/giantlib.jpg" alt="background img 1"></div>
- <?php include ('t1.php'); ?>    
+ <?php require_once ('t1.php'); ?>    
   </div>
     <div class="section black">
- 			<?php include('m1.php'); ?>	
+ 			<?php require_once('m1.php'); ?>	
  </div> 
         
           <div class="section">
@@ -61,12 +61,12 @@
   <div class="parallax-container valign-wrapper">
       <div class="parallax"><img src="timg/sm2.jpeg" alt="background img 1"></div>
       
-	</div> <?php include('fbFeed.php'); ?>
+	</div> <?php require_once('fbFeed.php'); ?>
   </div> 
 </main>
 <footer>
 
-  <?php include('footer.php'); ?>
+  <?php require_once('footer.php'); ?>
  
 </footer>
 
