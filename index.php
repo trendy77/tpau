@@ -12,7 +12,7 @@
 			</div>
 				<div class="container black">
 					<div class="section no-pad-bot black">
-						<h1 class="header center white-text">Trendy Publishing</h1>
+						<h1 class="header center white-text animated bounceInDown">Trendy Publishing</h1>
 				 		<br><br>
 						<h4 style="font-family:tinyHands; src:('fonts/tinyHands.woff')" class="header center grey-text">Digital Engagement Tools</h4>
 						<br><br>

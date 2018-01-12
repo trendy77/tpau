@@ -1,4 +1,7 @@
-<?php require_once('header.php'); ?>
+<?php 
+require_once('./templater.php');
+tHead('Advertise with Us','Gain exposure to engaged digital communities eager to interact with relevant brands','game.png');
+?>
 </div>	
 </div>	
 <div class="section no-pad-bot black">
@@ -17,7 +20,7 @@
 
 	 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="timg/5.jpg">
+      <img class="activator" src="./timg/social.jpg">
 	  
 	   </div>
     <div class="card-content">
@@ -34,7 +37,7 @@ steady audience growth sophisticated system of traffic targeting long-lasting pa
 	
  <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="timg/6.jpg">
+      <img class="activator" src="./timg/6.png">
 	  	   </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Viral Content<i class="material-icons right"></i></span>
@@ -60,9 +63,6 @@ steady audience growth sophisticated system of traffic targeting long-lasting pa
 <li><a href="#UK">LONDON</a></li>
 </ul>
 </div>
-
-</div>
-
        <div class="row">
         <div class="col s12 m6">
           <div class="card blue-grey darken-1">
@@ -108,7 +108,7 @@ steady audience growth sophisticated system of traffic targeting long-lasting pa
 </ul>
 </div>
 
-<div class="col s6" id="ME">
+<div class="col s4" id="ME">
 <h4>MELBOURNE - CORPORATE HEAD OFFICE</h4>
 <ul>
 <li>Trent Fischer, </li>
@@ -118,7 +118,7 @@ steady audience growth sophisticated system of traffic targeting long-lasting pa
 </ul>
 </div>
 
-<div class="col s6" id="BK">
+<div class="col s4" id="BK">
 <h4>BANGKOK, APAC ACCOUNTS</h4>
 <ul>
 <li>Ivy Lam</li>
@@ -128,7 +128,7 @@ steady audience growth sophisticated system of traffic targeting long-lasting pa
 </ul>
 </div>
  
-<div class="col s6" id="LN">
+<div class="col s4" id="LN">
 <h4>LONDON, UK/EU ACCOUNTS</h4>
 <ul>
 <li></li>
@@ -141,11 +141,9 @@ steady audience growth sophisticated system of traffic targeting long-lasting pa
 </main>
 <footer>
 
-  <?php require_once ('footer.php'); ?>
+<?php require_once ('./footer.php'); ?>
  
 </footer>
-	</div>
-		</div> 
-   <?php include_once ('js.php'); ?>
+<?php include_once ('./js.php'); ?>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: tinyHands;
-    src: url(../fonts/tinyHands.woff) format(woff);
+    src: local(../fonts/tinyHands.woff) format("woff"), src: local(../fonts/tinyHands.woff) format("woff"), src: local(../fonts/bf.woff2) format("woff2"), src: local(../fonts/bf.eot) format("eot"), src: local(../fonts/bf.otf) format("opentype"), src: local(../fonts/bf.svg) format("svg"), src: local(../fonts/bf.ttf) format("ttf");
 }
 
 #nav-legal {
