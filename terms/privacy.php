@@ -3,11 +3,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+<<<<<<< HEAD
 	<?php require_once('../tHeader.php'); ?>
 	</head>
 <body>
 	<header>
 		<?php require_once('../navi.php'); ?>
+=======
+	<?php include('../tHeader.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
  
 <div class="parallax"><img src="../timg/1.jpg" alt="background img 1"></div>
 	</div>	
@@ -19,7 +27,11 @@
 <h6 class="header">Privacy Policy</h6>
 
        <div class="container black">
+<<<<<<< HEAD
        <?php require_once('./tcnav.php'); ?>
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
       </div>
     </div>  
 
@@ -127,7 +139,11 @@ The effective date of this privacy policy is April 15, 2016. Since April 1, 2016
  	
 <footer>
     
+<<<<<<< HEAD
 <?php require_once('../footer.php'); ?>
+=======
+<?php include('../footer.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
  
  </footer>
 <?php include_once('../js.php'); ?>

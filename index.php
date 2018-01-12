@@ -2,17 +2,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+<<<<<<< HEAD
 	<?php require_once('tHeader.php'); ?>
 	</head>
 <body>
 	<header>
 		<?php require_once('navi.php'); ?>
+=======
+	<?php include('tHeader.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 		<div class="parallax-container valign-wrapper">
    			<div class="parallax"><img src="./timg/2.jpg" alt="lib">
 			</div>
 				<div class="container black">
 					<div class="section no-pad-bot black">
+<<<<<<< HEAD
 						<h1 class="header center white-text animated bounceInDown">Trendy Publishing</h1>
+=======
+						<h1 class="header center white-text">Trendy Publishing</h1>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 				 		<br><br>
 						<h4 style="font-family:tinyHands; src:('fonts/tinyHands.woff')" class="header center grey-text">Digital Engagement Tools</h4>
 						<br><br>
@@ -52,6 +64,7 @@
   	<section>
 	
 		<div id="mainContentBanner" class="parallax-container">
+<<<<<<< HEAD
 			<div class="parallax"><img src="./timg/1.jpg" alt="b"></div>
 		
 	
@@ -67,5 +80,23 @@
 		<?php require_once('footer.php'); ?>
 		</footer>
 		<?php require_once('js.php'); ?>
+=======
+			<div class="parallax"><img src="./timg/2.jpg" alt="b"></div>
+		</div>
+	
+		<div class="container white" id="platforms">
+			<?php include ('platforms.php'); ?>
+		</div>
+	
+	</section>
+	
+
+
+
+		<footer>
+		<?php include_once('footer.php'); ?>
+		</footer>
+		<?php include_once('js.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 	</body>
 </html>

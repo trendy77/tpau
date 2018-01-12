@@ -4,11 +4,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+<<<<<<< HEAD
 		<?php require_once('./termsXhead.php'); ?>
 	</head>
 <body>
 	<header>
 		<?php require_once('../navi.php'); ?>
+=======
+		<?php include('./termsXhead.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
  
 <div class="parallax"><img src="../timg/2.jpg" alt="background img 1"></div>
 	
@@ -21,7 +29,11 @@
 </div>
        <div class="container black">
 
+<<<<<<< HEAD
         <?php require_once('./tcnav.php'); ?>
+=======
+        <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
       </div>
  
  <div class="section no-pad-bot">
@@ -129,10 +141,17 @@ Currency.</p>
 
 <div id="footer-legal">
 <footer>
+<<<<<<< HEAD
   <?php require_once('../footer.php'); ?>
  </footer>
 </div>
   <?php require_once('../js.php'); ?>
+=======
+  <?php include('../footer.php'); ?>
+ </footer>
+</div>
+  <?php include('../js.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
           
 </body>
 </html>

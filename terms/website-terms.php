@@ -2,11 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+<<<<<<< HEAD
 	<?php require_once('./termsXhead.php'); ?>
 	</head>
 <body>
 	<header>
 		<?php require_once('../navi.php'); ?>
+=======
+	<?php include('./termsXhead.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
  <div class="parallax"><img src="../timg/1.jpg" alt="background img 1"></div>
 	</div>	
 </header> 
@@ -17,7 +25,11 @@
 <h4 class="header">Webiste Terms</h4>		
 
        <div class="container black">
+<<<<<<< HEAD
        <?php require_once('./tcnav.php'); ?>
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
       </div>
     </div>  
  <div class="section no-pad-bot grey">

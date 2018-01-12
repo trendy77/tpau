@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+<<<<<<< HEAD
 		<?php require_once('./termsXhead.php'); ?>
 	</head>
 <body>
 	<header>
 		<?php require_once('../navi.php'); ?>
+=======
+		<?php include('./termsXhead.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
  
 <div class="parallax"><img src="../timg/1.jpg" alt="background img 1"></div>
 	</div>	
@@ -17,7 +25,11 @@
 <h6 class="header">Cookies</h6>		
 </div>
        <div class="container black">
+<<<<<<< HEAD
        <?php require_once('./tcnav.php'); ?>
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
       </div>
  <div class="section no-pad-bot">
 <h3>More information about cookies</h3>
@@ -107,8 +119,14 @@ If you have any further questions and/or comments, please contact us.</p>
 </div>
 </div>
 <footer>
+<<<<<<< HEAD
   <?php require_once('../footer.php'); ?>
 </footer>
   <?php require_once('../js.php'); ?>
+=======
+  <?php include('../footer.php'); ?>
+</footer>
+  <?php include('../js.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 </body>
 </html>

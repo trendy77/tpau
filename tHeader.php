@@ -10,8 +10,12 @@ $sitedes= 'Proven, cost-effective Social Media audience engagement. Utilizing pr
 	<!-- STYLESHEETS FOR MATERIALIZE -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<<<<<<< HEAD
 		<link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
         <link href="./css/style.css" type="text/css" rel="stylesheet" media="all">
+=======
+		<link href="./css/style.css" type="text/css" rel="stylesheet" media="all">
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 		<link rel="icon" href="./favicon.ico" type="image/x-icon" >
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" >
 	   	<link rel="pingback" href="https://trendypublishing.com/xmlrpc.php" >

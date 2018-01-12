@@ -2,6 +2,7 @@
     <div class="container">
 	  	<div class="row center-align">
 			 <a class="grey-text text-lighten-3" style="font-size: 14px" style="font-size: 14px" href="index.php">HOME</a>
+<<<<<<< HEAD
 			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com.au/social.php">Social</a>
 			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com.au/platforms.php">Platforms</a>
 			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com.au/index.php#social">Media</a>
@@ -12,6 +13,17 @@
 		</div>
 	</div>
 
+=======
+			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com/social.php">Social</a>
+			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com/platforms">Platforms</a>
+			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com/index.php#social">Media</a>
+			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com/advertise.php">Advertise</a>
+			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com/terms/index.php">Terms</a>
+			|  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com/login.php">Member Login</a>
+			 |  <a class="grey-text text-lighten-3" style="font-size: 14px"  href="//trendypublishing.com/contact.php">Contact</a>
+		</div>
+	</div>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 		<div class="container center-align" id="contact">
 			<div class="row">
 				<h4 class="white-text left-align" style="font-family:tinyHands">Contact</h4>
@@ -72,6 +84,7 @@
 	     			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	 <div class="container">
 <?php require_once('icons.php'); ?>
     </div>
@@ -90,5 +103,13 @@
 		</div>
 		</div>
     </div>
+=======
+		   <div class="container grey-darken" id="footer-legal">
+          			<em><b><u> &copy;2014-18 Trendy Publishing - All rights reserved. </u></b></em> <br>
+					<p class="center-align" style="font-size:10px">Further information can be gained by reading the <a href="//trendypublishing.com/terms/the-fine-print.php">terms and website conditions</a>, or alternatively by contacting the relevant department through our <a href="contact.php">contact page</a>.</p>
+					<p class="center-align" style="font-size:9px">Any unauthorized reproduction, lack of enjoyment or disappointment from this material is prohibited.  No part may be reproduced in any form or by any means be it electronic, printed or imaginary.</p>
+					<p class="center-align" style="font-size:8px">This includes-but-is-not-limited-to time travel, being shot out of a cannon, printed onto Post-it notes distributed randomly throughout urban centres, or by any other equally inefficient distribution methods without the expressed written, engraved and tattooed permission of the publisher. The opinions expressed by no means necessarily represent the views of anyone with the smallest notion of common sense or basic levels of intelligence, and views should not be fully taken as fact by anyone without further investigation, ever... living, dead or otherwise.</p>
+			</div>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 				
      
