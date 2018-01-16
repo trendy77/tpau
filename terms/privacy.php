@@ -4,11 +4,27 @@
 <html lang="en">
 	<head>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	<?php require_once('../tHeader.php'); ?>
 	</head>
 <body>
 	<header>
 		<?php require_once('../navi.php'); ?>
+=======
+	<?php include('../tHeader.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+	<?php include('../tHeader.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> siteground_redo
 =======
 	<?php include('../tHeader.php'); ?>
 	</head>
@@ -28,7 +44,15 @@
 
        <div class="container black">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
        <?php require_once('./tcnav.php'); ?>
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> siteground_redo
 =======
        <?php include('./tcnav.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
@@ -140,7 +164,15 @@ The effective date of this privacy policy is April 15, 2016. Since April 1, 2016
 <footer>
     
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <?php require_once('../footer.php'); ?>
+=======
+<?php include('../footer.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+<?php include('../footer.php'); ?>
+>>>>>>> siteground_redo
 =======
 <?php include('../footer.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f

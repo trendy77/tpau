@@ -3,11 +3,27 @@
 <html lang="en">
 	<head>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	<?php require_once('./termsXhead.php'); ?>
 	</head>
 <body>
 	<header>
 		<?php require_once('../navi.php'); ?>
+=======
+	<?php include('./termsXhead.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+	<?php include('./termsXhead.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> siteground_redo
 =======
 	<?php include('./termsXhead.php'); ?>
 	</head>
@@ -28,7 +44,15 @@
 
        <div class="container black">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
        <?php require_once('./tcnav.php'); ?>
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> siteground_redo
 =======
        <?php include('./tcnav.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
@@ -216,7 +240,15 @@ We reserve the right, at our sole discretion, to update, change or replace any p
 
 <footer> 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <?php require_once('../footer.php'); ?>
+=======
+<?php include('../footer.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+<?php include('../footer.php'); ?>
+>>>>>>> siteground_redo
 =======
 <?php include('../footer.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f

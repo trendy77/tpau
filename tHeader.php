@@ -115,5 +115,5 @@ $sitedes= 'Proven, cost-effective Social Media audience engagement. Utilizing pr
         : _w.attachEvent && _w.attachEvent("onload", function() {document.body.attachEvent("on" + _gaLtEvt, _gaLt)});
 	</script>
 
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" /></script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<script> (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-4943462589133750", enable_page_level_ads: true})</script>
