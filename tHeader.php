@@ -21,20 +21,20 @@ $sitedes= 'Proven, cost-effective Social Media audience engagement. Utilizing pr
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" /></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js" /></script>
 		
-		<script src="./js/init.js" /></script>
+		<script src="./js/init.js"></script>
 
 		<title>Trendy Publishing || Growth Hacking + Viral Media Engagement</title> 
 
-		<link rel="terms" href="https://trendypublishing.com.au/terms/index.php" />
-		<link rel="privacy" href="https://trendypublishing.com.au/terms/privacy.php" />
-		<link rel="kik-icon" href="https://trendypublishing.com.au/timg/favb.ico" />
+		<link rel="terms" href="//trendypublishing.com.au/terms/index.php" />
+		<link rel="privacy" href="//trendypublishing.com.au/terms/privacy.php" />
+		<link rel="kik-icon" href="//trendypublishing.com.au/timg/favb.ico" />
 		<link rel="manifest" href="./manifest.json" />
 		<meta property="fb:app_id" 	content="1863943023885616" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta property="og:type" 		content="website" />
 		<meta name="keywords" content="marketing, digital, social, viral"/>
        <meta name="description" content="Trendy Publishing" />
-		<meta property="og:site_name" 	content="" />
+		<meta property="og:site_name" 	content="Trendy Publishing AU" />
 		<meta property="og:url" 	content="https://trendypublishing.com.au" />
 		<meta property="og:title"      content="Trendy Publishing" />
 		<meta property="og:image"      content="https://trendypublishing.com.au/live/wide.jpg" />
@@ -45,10 +45,10 @@ $sitedes= 'Proven, cost-effective Social Media audience engagement. Utilizing pr
 		<meta name="twitter:description" content="viral content marketing" />
 		<meta name="twitter:title" content="TrendyPublishingAU" />
 		<meta name="application-name" content="https://trendypublishing.com/" />
-		<meta name="msapplication-square70x70logo" content="live/small.jpg" />
-		<meta name="msapplication-square150x150logo" content="live/medium.jpg" />
-		<meta name="msapplication-wide310x150logo" content="live/wide.jpg" />
-		<meta name="msapplication-square310x310logo" content="live/large.jpg" />
+		<meta name="msapplication-square70x70logo" content="./live/small.jpg" />
+		<meta name="msapplication-square150x150logo" content="./live/medium.jpg" />
+		<meta name="msapplication-wide310x150logo" content="./live/wide.jpg" />
+		<meta name="msapplication-square310x310logo" content="./live/large.jpg" />
 		<meta name="msapplication-TileColor" content="#ffffff" />
 		<meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=https://trendypublishing.com/feed&amp;id=5; cycle=1" />
 		<meta name="keywords" content="Growth Hacking, Social Media, Viral content, digital marketing, media, publishing" />

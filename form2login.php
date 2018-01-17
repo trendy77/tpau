@@ -24,7 +24,7 @@ if ($num_row >= 1) {
 ?>
 <form action="login.php">
   <div class="imgcontainer">
-    <img src="./timg/medroid.gif" alt="Avatar" class="avatar">
+    <img src="./live/medroid.gif" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
