@@ -49,24 +49,24 @@
 				<div class="row">
 						<h5 class="teal-text left-align" style="font-family:tinyHands">@brand:social</h5>
 							<div class="col l12">
-								<div class="chip"><img src="https://orgmy.biz/timg/social/fb.png" alt="Facebook">Facebook  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/in.png" alt="Instagram">Instagram  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/me.png" alt="Messenger">Messenger  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/wa.png" alt="WhatsApp">WhatsApp  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/tu.png" alt="Tumblr">Tumblr  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/sk.png" alt="Facebook">Skype  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/llll.png" alt="lastFM">lastFM  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/wwww.png" alt="WP">Wordpress  </div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/yt.png" alt="Youtube">Youtube</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/tw.png" alt="Twitter">Twitter</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/pi.png" alt="Pinterest">Pinterest</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/g+.png" alt="Google+">Google+</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/gi.png" alt="Github">Github</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/di.png" alt="Digg">Digg</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/red.png" alt="Reddit">Reddit</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/sc.png" alt="SnapChat+">Snapchat</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/li.png" alt="LinkedIn">LinkedIn</div>
-								<div class="chip"><img src="https://orgmy.biz/timg/social/vi.png" alt="Vimeo">Vimeo</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/fb.png" alt="Facebook">Facebook  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/in.png" alt="Instagram">Instagram  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/me.png" alt="Messenger">Messenger  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/wa.png" alt="WhatsApp">WhatsApp  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/tu.png" alt="Tumblr">Tumblr  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/sk.png" alt="Facebook">Skype  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/llll.png" alt="lastFM">lastFM  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/wwww.png" alt="WP">Wordpress  </div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/yt.png" alt="Youtube">Youtube</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/tw.png" alt="Twitter">Twitter</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/pi.png" alt="Pinterest">Pinterest</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/g+.png" alt="Google+">Google+</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/gi.png" alt="Github">Github</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/di.png" alt="Digg">Digg</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/red.png" alt="Reddit">Reddit</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/sc.png" alt="SnapChat+">Snapchat</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/li.png" alt="LinkedIn">LinkedIn</div>
+								<div class="chip"><img src="//trendypublishing.com.au/timg/social/vi.png" alt="Vimeo">Vimeo</div>
                 					</div>
 	     			</div>
 		</div>
