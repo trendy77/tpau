@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<?php require_once('./termsXhead.php'); ?>
 	</head>
 <body>
@@ -30,6 +31,13 @@
 	<header>
 		<?php include('../navi.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+		<?php include('./termsXhead.php'); ?>
+	</head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
  
 <div class="parallax"><img src="../timg/1.jpg" alt="background img 1"></div>
 	</div>	
@@ -44,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        <?php require_once('./tcnav.php'); ?>
 =======
        <?php include('./tcnav.php'); ?>
@@ -51,6 +60,9 @@
 =======
        <?php include('./tcnav.php'); ?>
 >>>>>>> siteground_redo
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 =======
        <?php include('./tcnav.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
@@ -146,6 +158,7 @@ If you have any further questions and/or comments, please contact us.</p>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <?php require_once('../footer.php'); ?>
 </footer>
   <?php require_once('../js.php'); ?>
@@ -159,6 +172,11 @@ If you have any further questions and/or comments, please contact us.</p>
 </footer>
   <?php include('../js.php'); ?>
 >>>>>>> siteground_redo
+=======
+  <?php include('../footer.php'); ?>
+</footer>
+  <?php include('../js.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 =======
   <?php include('../footer.php'); ?>
 </footer>

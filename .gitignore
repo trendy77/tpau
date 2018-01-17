@@ -28,3 +28,5 @@ oldterms/tMiner/index.php
 oldterms/website-terms.php
 timg/Thumbs.db
 */Thumbs.db
+.vscode/ftp-sync.json
+fabric8-analytics.log

@@ -116,8 +116,8 @@
       </div>
 
       		<footer>
-		<?php require_once('footer.php'); ?>
+		<?php require_once('.footer.php'); ?>
 		</footer>
-		<?php require_once('js.php'); ?>
+		<?php require_once('./js.php'); ?>
 	</body>
 </html>

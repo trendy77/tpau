@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<?php require_once('./termsXhead.php'); ?>
     </head>
 <body>
@@ -31,6 +32,13 @@
 	<header>
 		<?php include('../navi.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
+=======
+	<?php include('./termsXhead.php'); ?>
+    </head>
+<body>
+	<header>
+		<?php include('../navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
     </header>
 
 <div class="parallax"><img src="../timg/1.jpg" alt="background img 1"></div>
@@ -46,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        <?php require_once('./tcnav.php'); ?>
 =======
        <?php include('./tcnav.php'); ?>
@@ -53,6 +62,9 @@
 =======
        <?php include('./tcnav.php'); ?>
 >>>>>>> siteground_redo
+=======
+       <?php include('./tcnav.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 =======
        <?php include('./tcnav.php'); ?>
 >>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f

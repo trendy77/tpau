@@ -5,7 +5,11 @@
 	</head>
 <body>
 	<header>
+<<<<<<< HEAD
 		<?php include('./navi.php'); ?>
+=======
+		<?php include('navi.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 		<div class="parallax-container valign-wrapper">
    			<div class="parallax"><img src="./timg/2.jpg" alt="lib">
 			</div>
@@ -13,7 +17,11 @@
 					<div class="section no-pad-bot black">
 						<h1 class="header center white-text">Trendy Publishing</h1>
 				 		<br><br>
+<<<<<<< HEAD
 						<h4 style="font-family:tinyHands; src:('./fonts/tinyHands.woff')" class="header center grey-text">Digital Engagement Tools</h4>
+=======
+						<h4 style="font-family:tinyHands; src:('fonts/tinyHands.woff')" class="header center grey-text">Digital Engagement Tools</h4>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 						<br><br>
 					</div>
 				</div>
@@ -34,7 +42,11 @@
 					<div class="icon-block">
 							<h5 class="center deep-orange-text pulse">Segment</h5>
 							<a class="btn btn-floating btn-large deep-orange pulse"><i class="material-icons">video_library</i></a>
+<<<<<<< HEAD
 							<p class="white-text">Engage with key demographics using mathematical precision.</p>
+=======
+							<p class="white-text">Pinpoint key demographics with mathematical precision.</p>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 					</div>
 				</div>
 				<div class="col m4 s12">
@@ -51,6 +63,7 @@
   	<section>
 	
 		<div id="mainContentBanner" class="parallax-container">
+<<<<<<< HEAD
 		<div class="parallax"><img src="./timg/4.jpg" alt="b"></div>
 			
 			<div class="container green-lighten-2" id="platforms">
@@ -115,12 +128,29 @@ stuff and junk and stuff.
 
 
 
+=======
+			<div class="parallax"><img src="./timg/2.jpg" alt="b"></div>
+		</div>
+	
+		<div class="container white" id="platforms">
+			<?php include ('platforms.php'); ?>
+		</div>
+	
+	</section>
+	
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 
 
 
 		<footer>
+<<<<<<< HEAD
 		<?php include_once('./footer.php'); ?>
 		</footer>
 		<?php include_once('./js.php'); ?>
+=======
+		<?php include_once('footer.php'); ?>
+		</footer>
+		<?php include_once('js.php'); ?>
+>>>>>>> 07b50c5df7c221e4befea4c3e5e21e0fd669ac9f
 	</body>
 </html>
