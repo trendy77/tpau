@@ -13,7 +13,7 @@
     "passphrase": null,
     "ignore": [
         "\\.vscode",
-        "\\.git",
+        "\\.git", "\\vendor",
         "\\.DS_Store",
         ".ftpquota",
         "scgi-bin"

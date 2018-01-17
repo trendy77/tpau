@@ -15,8 +15,7 @@
  <div class="parallax"><img src="./timg/3.jpg" alt="background"></div>
   <div class="container">
     	<div class="section brown">
-		
-					<?php require_once('form2login.php'); ?>
+	<?php require_once('form2login.php'); ?>
  
 				</div>
 		</div>	

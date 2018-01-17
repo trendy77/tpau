@@ -1,7 +1,7 @@
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=ddd0de63-477b-4d8a-a6aa-174f676a7651"></script>
 
 <!-- kik API -->
-<script src="https://cdn.kik.com/kik/1.0.0/kik.js"></script>
+<script src="https://cdn.kik.com/kik/1.0.0/kik.js" async defer></script>
 <!-- FB API -->
 <script src="https://connect.facebook.net/en_US/all.js"></script>
 

@@ -18,21 +18,42 @@ tHead('Advertise with Us','Gain exposure to engaged digital communities eager to
   <div class="container grey">
     <div class="section">
 
+<div class="container white" id="enterprise">
+
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Platforms<i class="material-icons right">more_vert</i></span>
+       </div>
+
+<div class="container white" id="agencies">
+
+   <span class="card-title grey-text text-darken-4">ADVERTISERS<i class="material-icons right">close</i></span>
+      <p>Marketing across the Trendy Publishing network allows data driven choices to be made, revealing a finite selection of highly engaged, socially vocal group of product champions, products and services to millions of Internet users worldwide. We offer innovative solutions to increase your revenues, enhance conversion rates and grow traffic to your website, social media 'chatter' towards a product or increased audience at landing pages.
+Through targeted and carefully defined models we are able to channel engaged consumers, where the impact of your advertisement is further amplifed through social media to maximise value.</p>
+steady audience growth sophisticated system of traffic targeting long-lasting partnerships</p>
+    </div>
+
+<div class="container white" id="small-business">
+
+   <span class="card-title green-text text-darken-4">SMALL-BUSINESS<i class="material-icons right">close</i></span>
+      <p>Marketing across the Trendy Publishing network allows data driven choices to be made, revealing a finite selection of highly engaged, socially vocal group of product champions, products and services to millions of Internet users worldwide. We offer innovative solutions to increase your revenues, enhance conversion rates and grow traffic to your website, social media 'chatter' towards a product or increased audience at landing pages.
+Through targeted and carefully defined models we are able to channel engaged consumers, where the impact of your advertisement is further amplifed through social media to maximise value.</p>
+steady audience growth sophisticated system of traffic targeting long-lasting partnerships</p>
+    </div>
+
+<div class="container white" id="social-media-management">
+
+<div class="container white" id="social-customer-service">
+
+<div class="container white" id="social-media-marketing">
+
 	 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="./timg/social.jpg">
 	  
 	   </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Platforms<i class="material-icons right">more_vert</i></span>
-      <p><a href="platforms.php">PUBLISHERS</a></p>
-    </div>
+
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">ADVERTISERS<i class="material-icons right">close</i></span>
-      <p>Marketing across the Trendy Publishing network allows data driven choices to be made, revealing a finite selection of highly engaged, socially vocal group of product champions, products and services to millions of Internet users worldwide. We offer innovative solutions to increase your revenues, enhance conversion rates and grow traffic to your website, social media 'chatter' towards a product or increased audience at landing pages.
-Through targeted and carefully defined models we are able to channel engaged consumers, where the impact of your advertisement is further amplifed through social media to maximise value.</p>
-steady audience growth sophisticated system of traffic targeting long-lasting partnerships</p>
-    </div>
+   
   </div>
 	
  <div class="card">

@@ -7,14 +7,14 @@ $mysql_db_hostname = "localhost";
 $mysql_db_user = "trendyp4";
 $mysql_db_password = "trendypub11!";
 $mysql_db_database = "test";
-$con = mysql_connect($mysql_db_hostname, $mysql_db_user, $mysql_db_password)
+$con = mysqli_connect($mysql_db_hostname, $mysql_db_user, $mysql_db_password)
         or die("Could not connect database");
-mysql_select_db($mysql_db_database, $con) or die("Could not select database");
+mysqli_select_db($mysql_db_database, $con) or die("Could not select database");
 
 $query = "SELECT * FROM registered_users WHERE name='$username' AND password='$password'";
-$result = mysql_query($query) or die(mysql_error());
-$num_row = mysql_num_rows($result);
-$row = mysql_fetch_array($result);
+$result = mysqli_query($query) or die(mysqli_error());
+$num_row = mysqli_num_rows($result);
+$row = mysqli_fetch_array($result);
 if ($num_row >= 1) {
         echo 'true';
         $_SESSION['user_name'] = $row['name'];
@@ -24,7 +24,7 @@ if ($num_row >= 1) {
 ?>
 <form action="login.php">
   <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    <img src="./timg/medroid.gif" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">

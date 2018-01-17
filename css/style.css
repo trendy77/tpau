@@ -1,9 +1,14 @@
 /* Custom Stylesheet */
 
 @font-face {
-    font-family: tinyHands;
-<<<<<<< HEAD
-    src: local(../fonts/tinyHands.woff) format("woff"), src: local(../fonts/tinyHands.woff) format("woff"), src: local(../fonts/bf.woff2) format("woff2"), src: local(../fonts/bf.eot) format("eot"), src: local(../fonts/bf.otf) format("opentype"), src: local(../fonts/bf.svg) format("svg"), src: local(../fonts/bf.ttf) format("ttf");
+    font-family: 'tinyHands';
+    /* IE9 Compat Modes */
+    src: url('../fonts/bf.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/bf.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/bf.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/bf.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/bf.svg#svgFontName') format('svg');
+    /* Legacy iOS */
 }
 
 #nav-legal {
@@ -70,90 +75,6 @@ p {
     font-size: inherit;
 }
 
-=======
-    src: url(../fonts/tinyHands.woff) format(woff);
-}
-
-#nav-legal{
-    text-align: center;
-}
-.icon-site {
-    padding: 15px 15px 15px 15px 15px;
-    align: center;
-}
-
-#footer-legal {
-    margin: 10px;
-    align: center;
-    text-align: justify;
-    opacity: 70;
-}
-
-#img-footer.left {
-    float: left;
-    opacity: 50;
-}
-
-#img-footer.right {
-    float: right;
-    opacity: 50;
-}
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
-}
-
-h1 {
-    font-family: tinyHands;
-}
-
-h2 {
-    font-family: tinyHands;
-    .terms {
-
-
-    }
-}
-
-h3 {
-    font-family: tinyHands;
-}
-
-h4 {
-    font-family: tinyHands;
-}
-
-h6 {
-    font-family: tinyHands;
-}
-
-#top-header {
-    background: #59aeff;
-    font-family: tinyHands;
-}
-
-p {
-    line-height: 2rem;
-    font-family: roboto;
-    text-align: justify;
-}
-
-#map {
-    height: 400px;
-    width: 100%;
-}
-
-.icon-block .material-icons {
-    font-size: inherit;
-}
-
->>>>>>> siteground_redo
 nav ul a,
 nav .brand-logo {
     color: #444;
