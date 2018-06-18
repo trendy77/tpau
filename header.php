@@ -10,6 +10,14 @@ require_once('tSite.php');
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="all"/>
 	<title>Trendy Publishing || Growth Hacking + Viral Media Engagement</title>
 
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4943462589133750",
+    enable_page_level_ads: true
+  });
+</script>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script>if (!window.jQuery) { document.write('<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"><\/script>'); }
 	</script>
